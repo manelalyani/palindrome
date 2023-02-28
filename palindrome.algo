@@ -1,0 +1,13 @@
+FUNCTION palindrome_recursiv(c:char,n:INTEGER,mot:STRING):char
+VAR
+
+BEGIN
+    IF ( ch[1]=ch[n] ) THEN
+        RETURN mot:=palindrome
+    ELSE
+      IF (mot="" or ch[1]=1) THEN
+        RETURN mot nest pas palindrome
+      END_IF  
+    END_IF
+    RETURN mot ;
+END
